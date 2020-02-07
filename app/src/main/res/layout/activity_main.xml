@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="McDonald"
+        android:textSize="30dp"
+        android:textColor="#FFFF0000"
+        android:layout_gravity="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mcdonald"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="McDonald"
+        android:textColor="#F44336"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/artikel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/btn1"
+        android:text="McDonald's Corporation NYSE: MCD (di Indonesia terkenal dengan sebutan McD, dibaca Mekdi) adalah waralaba rumah makan siap saji terbesar di dunia. Hidangan utama di restoran-restoran McDonald's adalah hamburger, tetapi mereka juga menyajikan minuman ringan, kentang goreng dan hidangan-hidangan lokal yang disesuaikan dengan tempat restoran itu berada. Lambang McDonald's adalah dua busur berwarna kuning yang biasanya dipajang di luar rumah-rumah makan mereka dan dapat segera dikenali oleh masyarakat luas. Restoran McDonald's pertama didirikan pada tahun 1940 oleh dua bersaudara Dick dan Mac McDonald, tetapi kemudian dibelinya oleh Ray Kroc dan diperluas ke seluruh dunia. Sampai pada tahun 2004, McDonald's memiliki 30.000 rumah makan di seluruh dunia dengan jumlah pengunjung rata-rata 50.000.000 orang dan pengunjung per hari dan rumah makan 1.700 orang. Restoran McDonald's pertama di Indonesia terletak di Sarinah, Jakarta dan dibuka pada 23 Februari 1991. Berbeda dari kebanyakan restoran McDonald's di luar negeri, McDonald's juga menjual ayam goreng dan nasi di restoran-restorannya di Indonesia. Pada awalnya, pemegang hak waralaba McDonald's di Indonesia adalah PT Bina Nusa Rama milik Bambang Rachmadi. Pada tanggal 3 Juni 2009, hak waralaba McDonald's di Indonesia diambil alih oleh PT Rekso Nasional Food, yang merupakan anak perusahaan Rekso Group, yang merupakan induk usaha perusahaan minuman ringan Sinar Sosro. Pada tanggal 1 Oktober 2009, McDonald's berubah menjadi Tony Jack's Indonesia tetapi tidak seluruh gerai McDonald's. Terdapat 13 gerai McDonald’s milik Bambang Rachmadi yang berubah antara lain berlokasi di Sarinah (Thamrin), Melawai Plaza, Blok M Plaza, Arion, Kelapa Gading, Sunter, Bandung Indah Plaza, Plaza Surabaya, Bandara Soekarno-Hatta, ITC Mangga Dua, Citra Land, Gajah Mada Plaza, dan Kebon Jeruk. Sayang, keberadaan Tony Jack's Indonesia tidak berlangsung lama. Beberapa bulan kemudian, Tony Jack's Indonesia bangkrut dan diambil alih kembali oleh McDonald's.[butuh rujukan] McDonald's menawarkan menu yang berbeda-beda di berbagai negara. Di Norwegia terdapat McLaks, yaitu sandwich salmon, di India terdapat Maharaja Macs dengan daging kambing dan McAloo Tikki burger untuk umat Hindu vegetarian."
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+    />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
